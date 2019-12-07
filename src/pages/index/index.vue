@@ -1,26 +1,29 @@
 <template>
   <div @click="clickHandle">
 
-    <div class="userinfo" @click="bindViewTap">
-      <img class="userinfo-avatar" v-if="userInfo.avatarUrl" :src="userInfo.avatarUrl" background-size="cover" />
-      <div class="userinfo-nickname">
-        <card :text="userInfo.nickName"></card>
-      </div>
+    <div>
+      <img class="banner" src="/static/images/logo.png" background-size="cover"/>
+    </div>
+    <LogoHeader title="小熊家绘本"></LogoHeader>
+
+    <div class="main-nav">
+      <menusection address="/pages/about/main" text="关于我们"></menusection>
+      <menusection address="/pages/environment/main" text="管内风采"></menusection>
+      <menusection address="/pages/the-moment/main" text="精彩瞬间"></menusection>
+    </div>
+    <div class="main-nav">
+      <menusection address="/pages/join-us/main" text="加入我们"></menusection>
+      <menusection address="/pages/club/main" text="会员空间"></menusection>
+      <menusection address="/pages/contact/main" text="联系我们"></menusection>
     </div>
 
-    <a href="/pages/counter/main" class="counter">去往Vuex示例页面</a>
-
-    <div class="all">
-        <div class="left">
-        </div>
-        <div class="right">
-        </div>
-    </div>
   </div>
 </template>
 
 <script>
 import card from '@/components/card'
+import menusection from '@/components/MenuSection'
+import LogoHeader from '@/components/LogoHeader'
 
 export default {
   data () {
@@ -34,7 +37,9 @@ export default {
   },
 
   components: {
-    card
+    card,
+    menusection,
+    LogoHeader
   },
 
   methods: {
@@ -59,21 +64,11 @@ export default {
 </script>
 
 <style scoped>
-.userinfo {
+.main-nav {
+  margin: 20px 10% auto 10%;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.userinfo-avatar {
-  width: 128rpx;
-  height: 128rpx;
-  margin: 20rpx;
-  border-radius: 50%;
-}
-
-.userinfo-nickname {
-  color: #aaa;
+  justify-content: space-between;
+  flex-wrap: nowrap;
 }
 
 .usermotto {
@@ -108,5 +103,9 @@ export default {
   width:4.5rem;
   height:1rem;
   background-color:green;
+}
+
+.banner {
+  height: 200px;
 }
 </style>

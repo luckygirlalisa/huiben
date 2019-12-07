@@ -2,10 +2,17 @@
   "pages": [
     "pages/index/main",
     "pages/logs/main",
-    "pages/counter/main"
+    "pages/counter/main",
+    "pages/about/main",
+    "pages/club/main",
+    "pages/contact/main",
+    "pages/environment/main",
+    "pages/join-us/main",
+    "pages/moment/main",
+    "pages/the-moment/main"
   ],
   "window": {
-    "backgroundTextStyle": "light",
+    "backgroundTextStyle": "dark",
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "WeChat",
     "navigationBarTextStyle": "black"
@@ -22,8 +29,8 @@
       "iconPath": "static/tabs/home.png",
       "selectedIconPath": "static/tabs/home-active.png"
     }, {
-      "text": "订单",
-      "pagePath": "pages/logs/main",
+      "text": "会员空间",
+      "pagePath": "pages/club/main",
       "iconPath": "static/tabs/orders.png",
       "selectedIconPath": "static/tabs/orders-active.png"
     }],
@@ -34,8 +41,8 @@
       "icon": "static/tabs/home.png",
       "activeIcon": "static/tabs/home-active.png"
     }, {
-      "name": "订单",
-      "pagePath": "pages/logs/main",
+      "name": "会员空间",
+      "pagePath": "pages/club/main",
       "icon": "static/tabs/orders.png",
       "activeIcon": "static/tabs/orders-active.png"
     }],
