@@ -1,13 +1,13 @@
 <template>
   <a class="page-nav" :href="address">
-    <img class="nav-logo" src="/static/images/user.png" background-size="cover" />
-    <p class="about-us">{{text}}</p>
+    <img class="nav-logo" :src="logo" background-size="cover" />
+    <p>{{text}}</p>
   </a>
 </template>
 
 <script>
 export default {
-  props: ['address', 'text']
+  props: ['address', 'text', 'logo']
 }
 </script>
 

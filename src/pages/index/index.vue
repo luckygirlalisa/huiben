@@ -7,14 +7,14 @@
     <LogoHeader title="小熊家绘本馆"></LogoHeader>
 
     <div class="main-nav">
-      <menusection address="/pages/about/main" text="关于我们"></menusection>
-      <menusection address="/pages/environment/main" text="管内风采"></menusection>
-      <menusection address="/pages/moment/main" text="精彩瞬间"></menusection>
+      <menusection address="/pages/about/main" text="关于我们" logo="/static/images/logo/about-us.png"></menusection>
+      <menusection address="/pages/environment/main" text="管内风采" logo="/static/images/logo/environment.png"></menusection>
+      <menusection address="/pages/moment/main" text="精彩瞬间" logo="/static/images/logo/moment.png"></menusection>
     </div>
     <div class="main-nav">
-      <menusection address="/pages/join-us/main" text="加入我们"></menusection>
-      <menusection address="/pages/club2/main" text="会员空间"></menusection>
-      <menusection address="/pages/contact/main" text="联系我们"></menusection>
+      <menusection address="/pages/join-us/main" text="加入我们" logo="/static/images/logo/join-us.png"></menusection>
+      <menusection address="/pages/club2/main" text="会员空间" logo="/static/images/logo/club.png"></menusection>
+      <menusection address="/pages/contact/main" text="联系我们" logo="/static/images/logo/contact-us.png"></menusection>
     </div>
 
   </div>
