@@ -15,11 +15,7 @@
     data: {
       images: [
         '/static/images/logo.png'
-      ],
-      name: '',
-      school: '',
-      phone: '',
-      home: ''
+      ]
     },
     components: {
       PageContent,
