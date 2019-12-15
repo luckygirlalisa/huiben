@@ -9,7 +9,7 @@
     <div class="main-nav">
       <menusection address="/pages/about/main" text="关于我们"></menusection>
       <menusection address="/pages/environment/main" text="管内风采"></menusection>
-      <menusection address="/pages/the-moment/main" text="精彩瞬间"></menusection>
+      <menusection address="/pages/moment/main" text="精彩瞬间"></menusection>
     </div>
     <div class="main-nav">
       <menusection address="/pages/join-us/main" text="加入我们"></menusection>

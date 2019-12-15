@@ -8,8 +8,7 @@
     "pages/contact/main",
     "pages/environment/main",
     "pages/join-us/main",
-    "pages/moment/main",
-    "pages/the-moment/main"
+    "pages/moment/main"
   ],
   "window": {
     "backgroundTextStyle": "dark",
