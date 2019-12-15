@@ -5,15 +5,11 @@
 ## Build Setup
 
 ``` bash
-# 初始化项目
-vue init mpvue/mpvue-quickstart myproject
-cd myproject
-
 # 安装依赖
-yarn
+yarn install
 
 # 开发时构建
-npm dev
+npm run dev
 
 # 打包构建
 npm build
