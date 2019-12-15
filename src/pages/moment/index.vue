@@ -14,10 +14,11 @@
   export default {
     data: {
       images: [
-        '/static/images/logo.png',
-        '/static/images/logo.png',
-        '/static/images/logo.png',
-        '/static/images/logo.png'
+        '/static/images/moment-1.jpg',
+        '/static/images/moment-2.jpg',
+        '/static/images/moment-3.jpg',
+        '/static/images/moment-4.jpg',
+        '/static/images/moment-5.jpg'
       ]
     },
     components: {

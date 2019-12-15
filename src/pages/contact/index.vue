@@ -10,7 +10,8 @@
       <img src="/static/images/weixin2.png" mode="widthFix" />
     </div>
 
-    <map id="map" class="map" longitude="113.324520" latitude="23.099994" scale="14" :markers="markers"></map>
+    <map id="map" class="map" longitude="112.577010" latitude="35.092470" scale="18" :markers="markers"></map>
+    <p>地址：济水大街 济水花城门口（交通银行二楼）</p>
    </div>
 </template>
 

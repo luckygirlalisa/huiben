@@ -2,7 +2,7 @@
   <div @click="clickHandle">
 
     <div>
-      <img class="banner" src="/static/images/logo.png" background-size="cover"/>
+      <img class="banner" src="/static/images/main-picture.png" background-size="cover"/>
     </div>
     <LogoHeader title="小熊家绘本馆"></LogoHeader>
 

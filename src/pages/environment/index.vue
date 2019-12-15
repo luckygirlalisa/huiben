@@ -14,10 +14,13 @@
   export default {
     data: {
       images: [
-        '/static/images/logo.png',
-        '/static/images/logo.png',
-        '/static/images/logo.png',
-        '/static/images/logo.png'
+        '/static/images/environment-1.jpg',
+        '/static/images/environment-2.jpg',
+        '/static/images/environment-3.jpg',
+        '/static/images/environment-4.jpg',
+        '/static/images/environment-5.jpg',
+        '/static/images/environment-6.jpg',
+        '/static/images/environment-7.jpg'
       ]
     },
     components: {
