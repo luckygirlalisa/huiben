@@ -13,6 +13,7 @@ export default {
 
 <style>
 .page-nav {
+  padding: 5px;
   display: flex;
   flex-direction: column;
   align-items: center;

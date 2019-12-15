@@ -4,7 +4,7 @@
     <div>
       <img class="banner" src="/static/images/logo.png" background-size="cover"/>
     </div>
-    <LogoHeader title="小熊家绘本"></LogoHeader>
+    <LogoHeader title="小熊家绘本馆"></LogoHeader>
 
     <div class="main-nav">
       <menusection address="/pages/about/main" text="关于我们"></menusection>
@@ -13,7 +13,7 @@
     </div>
     <div class="main-nav">
       <menusection address="/pages/join-us/main" text="加入我们"></menusection>
-      <menusection address="/pages/club/main" text="会员空间"></menusection>
+      <menusection address="/pages/club2/main" text="会员空间"></menusection>
       <menusection address="/pages/contact/main" text="联系我们"></menusection>
     </div>
 
@@ -107,5 +107,6 @@ export default {
 
 .banner {
   height: 200px;
+  width: 100%;
 }
 </style>
